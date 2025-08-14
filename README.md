@@ -11,13 +11,8 @@
 - [Screenshots / Demo](#screenshots--demo)  
 - [Installation](#installation)  
   - [Prerequisites](#prerequisites)  
-  - [Setup Guide](#setup-guide)  
 - [Usage](#usage)  
-- [API Endpoints](#api-endpoints) *(if applicable)*  
 - [Folder Structure](#folder-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)
 
 ---
 
@@ -26,7 +21,7 @@
 - Add, view, edit, and delete expense entries  
 - Filter and categorize expenses  
 - Responsive and easy-to-use frontend  
-*(Feel free to expand with features like authentication, dashboards, charts, recurring transactions—depending on your implementation.)*
+- Authentication, dashboards
 
 ##  Technologies Used
 
@@ -37,10 +32,32 @@
 | Database     | MongoDB           |
 | (Optional)   | Redux, JWT, Chart.js, etc. |
 
-*(Adjust based on what’s actually included in the code—you can list key npm packages from `package.json` too.)*
-
----
 
 ##  Screenshots / Demo
 
-_Add a screenshot or GIF of your app here_  
+![BudgetBuddy](https://budgetbuddy-wkcm.onrender.com/login)
+
+##  Installation
+
+### Prerequisites
+- Node.js and npm installed  
+- MongoDB instance or Atlas cluster
+
+##  Usage
+
+- Register / login 
+- Navigate to the Add Expense page
+- Input the amount, category, date, and description
+- View your expenses in a list or dashboard
+- Use filters to sort by date, category, or amount
+
+## Folder Structure
+BudgetBuddy/
+├── client/            # React frontend
+├── controllers/       # Express route handlers
+├── models/            # MongoDB data schemas
+├── routes/            # Express routing definitions
+├── server.js          # Entry point for backend
+├── config/            # Config files (e.g., DB connection)
+└── package.json
+
