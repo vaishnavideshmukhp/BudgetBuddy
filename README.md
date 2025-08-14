@@ -11,8 +11,7 @@
 - [Screenshots / Demo](#screenshots--demo)  
 - [Installation](#installation)  
   - [Prerequisites](#prerequisites)  
-- [Usage](#usage)  
-- [Folder Structure](#folder-structure)  
+- [Usage](#usage)   
 
 ---
 
@@ -34,8 +33,8 @@
 
 
 ##  Screenshots / Demo
-
-![BudgetBuddy](https://budgetbuddy-wkcm.onrender.com/login)
+### 🌐 Live Demo
+[Click here to use BudgetBuddy](https://budgetbuddy-wkcm.onrender.com/login)
 
 ##  Installation
 
@@ -50,14 +49,3 @@
 - Input the amount, category, date, and description
 - View your expenses in a list or dashboard
 - Use filters to sort by date, category, or amount
-
-## Folder Structure
-BudgetBuddy/
-├── client/            # React frontend
-├── controllers/       # Express route handlers
-├── models/            # MongoDB data schemas
-├── routes/            # Express routing definitions
-├── server.js          # Entry point for backend
-├── config/            # Config files (e.g., DB connection)
-└── package.json
-
